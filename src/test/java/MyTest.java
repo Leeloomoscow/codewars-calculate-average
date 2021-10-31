@@ -5,6 +5,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class MyTest {
     private static final double DELTA = 1e-15;
+
     @Test
     public void testSomething() {
         assertEquals(1, Kata.find_average(new int[]{1, 1, 1}), DELTA);
